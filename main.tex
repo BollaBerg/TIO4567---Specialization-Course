@@ -1,0 +1,44 @@
+% Template author - Jon Arnt Kårstad, NTNU IMT
+% Author - Andreas B. Berg
+\documentclass{article}
+
+% Importing document settings from our file "packages.sty"
+\usepackage{packages}
+
+% Beginning of document
+\begin{document}
+
+% Inserting title page
+\import{./}{title}
+
+% Defining front matter settings (Norsk: innstillinger for forord m.m.)
+\frontmatter
+
+% Inserting table of contents
+\tableofcontents
+
+% Inserting list of figures & list of tables
+% \listoffigures
+% \listoftables
+
+% Defining main matter settings (Norsk: innstillinger for hoveddelen av teksten)
+\mainmatter
+
+% Introduction explaining this LaTeX-template
+\import{./Sections/}{10 Introduction}
+\import{./Sections/}{20 Methodology}
+\import{./Sections/}{30 Assessment criteria}
+\import{./Sections/}{40 Evaluation}
+\import{./Sections/}{50 Discussion}
+\import{./Sections/}{60 Conclusion}
+
+
+% Printing bibliography
+\newpage
+\printbibliography[heading = bibintoc, title = Bibliography]    % 'bibintoc' inserts our bibliography into the table of contents
+
+\appendix
+\import{Appendices}{Searches}
+
+% End of document
+\end{document}
