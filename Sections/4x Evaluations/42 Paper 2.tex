@@ -1,21 +1,48 @@
 % Paper 2
 \subsection[Presentation of Vakkuri et al. (2020)]{Presentation of \textcite{Vakkuri_2020}}
+\label{sec:vakkuri-presentation}
 The second paper, \citetitle{Vakkuri_2020} by \textcite{Vakkuri_2020}, is a quantitative paper looking at how and to what extend AI ethics are applied within the AI industry. The paper starts by describing the attractiveness of artificial intelligence, and how this has contributed, and is likely to continue contributing, to an increasing number of ethical incidents involving the technology, before a brief discussion on how their survey -- using respondent data to analyze the practice of AI ethics -- is novel and has never before been done.
 
 The paper contains data gathered from 249 employees from 211 companies, primarily located in the US or Finland \parencite[p.52]{Vakkuri_2020}. Over 65 per cent of the respondents answered that they were able to influence the functionality of their systems, and of the responding companies, over half were actively developing artificial intelligence systems. The authors note that the answers were similar whether the employing company were developing artificial intelligence or not, and independent of the geographic location of the company. All responses are therefore included in the paper.
 
 \textcite{Vakkuri_2020} rounds out the paper by discussing what the presented results means for other software development companies. They connect AI ethics to other ethical trends, such as data privacy and ecological issues, and briefly discuss how AI ethics can create business advantages. The authors go on to mention several tools for implementing AI ethics in a company, such as existing guidelines, but point out that there is limited access to general use, off-the-shelf solutions for AI ethics. Finally, the paper goes on to mention several anti-patterns companies looking to implement AI ethics should avoid -- such as outsourcing ethics or delegating ethics work to a single individual -- before rounding out by a discussion of how the evolution of AI ethics is likely to impact the software development industry.
 
-\subsection[Evaluation of Vakkuri et al. (2020)]{Evaluation of \textcite{Vakkuri_2020}}
-% Does the paper contains explicit research questions? What are they? If not, what is the goal of the research?
 
+
+\subsection[Evaluation of Vakkuri et al. (2020)]{Evaluation of \textcite{Vakkuri_2020}}
+\label{sec:vakkuri-evaluation}
+% Does the paper contains explicit research questions? What are they? If not, what is the goal of the research?
+Although \textcite{Vakkuri_2020} present novel insights into the current state of AI ethics in the software industry, they do so without any explicit mention of research goals or -questions. Much like \textcite{Barredo_2020}, the authors include the intent of their questionnaire as part of a sentence in the introduction -- "To provide needed insight into the current state of practice in the industry" \parencite[p.51]{Vakkuri_2020}. This states the purpose of the research, and as such satisfies recommendations from \textcite[p.359]{Davidson_2012}, but the lack of explicit research questions makes it harder to "have a clear idea of what the research question is, why it is important and what the investigators aimed to do in the study" \parencite[p.360]{Davidson_2012}. In order to understand the concrete research goals of the authors, a reader is then forced to read between the lines. Doing so creates three possible sources of research goals, inspired by the three different parts of the paper where the research questions are expected to be involved -- the title \parencite[p.359]{Davidson_2012}, the abstract \parencite[p.115]{Cuschieri_2019} and the introduction \parencite[p.2]{Jha_2014}.
+
+The title should be "relevant to the research question, and accurately describe what the study is about" \parencite[p.359]{Davidson_2012}. As such, it, combined with subtitles throughout the text, can be used as a source for research goals. In \textcite{Vakkuri_2020}, the title, which reads "The Current State of Industrial Practice in Artificial Intelligence Ethics" clearly indicates that the goal of the research is to learn more about how the software development industry is currently practicing AI ethics, and thus aligns with the aim mentioned above. This is further supported by the three subtitles used throughout the text -- "What Is AI Ethics?", "What Is Actually Happening in the Industry?" and "What Should Your Organization Do?" (\cite{Vakkuri_2020}, p.51, 52 and 54, respectively). The three subtitles are all formulated as questions, and clearly align with the aim of the survey. As such, they are used as foundation for potential research question (PRQ) 1-3:
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{cl}
+        PRQ 1 & What is AI ethics? \\
+        PRQ 2 & How are AI ethics implemented and used in the software development industry? \\
+        PRQ 3 & How does this impact other organizations in the software development industry? \\
+    \end{tabular}
+    % \caption{Potential research questions for \textcite{Vakkuri_2020}.}
+    % \label{tab:vakkuri_PRQs}
+\end{table}
+
+\textcite[p.115]{Cuschieri_2019} states that the abstract "needs to contain a clear statement of the research question/s and the purpose for conducting the research", making it a potentially good source for implicit research questions. \textcite[p.50]{Vakkuri_2020} state in their abstract that their research "provide insights into the current state of industrial practice". This closely aligns with both the title and subtitles, and supports PRQ 2. The abstract is short, and thus contains no support for PRQ 1 or 3.
+
+According to \textcite[p.2]{Jha_2014}, an introduction should "state the aim, the research question, and the study design". Although \textcite{Vakkuri_2020} does not explicitly state their research questions, the introduction may still be used to discover potential research questions. The authors state that "we know little of the current state of practice of ethics in AI", following up with asking whether "the public and academic discussion in the area [have] motivated smaller industry players to develop more ethical AI" \parencite[p.50]{Vakkuri_2020}. Combined with their stated contributions -- "helping us understand where we currently are as an industry in terms of AI ethics" and "a way to benchmark where [other organizations] stands" \parencite[p.51]{Vakkuri_2020}, this strongly supports the representativeness of PRQ 2 and 3. The introduction discusses the background of AI ethics, including reasons why it is needed, but otherwise do not indicate support for PRQ 1. The rest of this analysis will therefore use PRQ 2 and 3 as representative research questions for the paper.
 
 % How can this paper's use of RQs contribute to mitigating "publish or perish"?
 
-% (How does the results connect with RQs?)
+
+% How does the results connect with RQs?
+The survey conducted by \textcite{Vakkuri_2020} asked employees about the liabilities and responsibilities of their systems, transparency towards both users, public authorities and developers, and organizational plans for handling unexpected use and potential misuse of their system. Most of these topics are closely related to AI ethics, with liability, responsibility and transparency being listed as key principles of ethical AI \parencite[p.51]{Vakkuri_2020}. As the questionnaire is sent to practitioners within the industry of software development, it is clear that the results produced are closely aligned with PRQ 2, directly answering the question.
+
+The connections between the results and PRQ 3 are not as clear to see. It can be argued that there is an indirect connection, as answers to PRQ 2 at least partially answer PRQ 3, due to the actions of one organization naturally impacting the expectations and behavior of others. This is also noted by \textcite[p.55]{Vakkuri_2020}, stating that: "[as] users become increasingly conscious about privacy issues, being ethical in relation to data privacy, for example, can become a selling point." There are, however, no clear direct connections between PRQ 3 and the survey or its responses.
 
 % (How does the conclusion connect with RQs?)
+In the conclusion, however, clear connections to PRQ 3 can be observed. As mentioned in \autoref{sec:vakkuri-presentation}, \textcite{Vakkuri_2020} points out guidelines and tools to use for implementing AI ethics, clear antipatterns to avoid when doing so, potential developments of the industry and regulations that can increase the pressure to implement AI ethics, and ways it can be beneficial to do so already, even before laws or regulations are enacted. The authors summarize the recommendation for other organizations in the final sentence of the paper, stating: "Acting on AI ethics today will reap future rewards" \parencite[p.56]{Vakkuri_2020}. As such, the conclusion directly and explicitly answers PRQ 3.
 
-% (Does the article explicitly point reference the RQs at any point?)
+This same connection between conclusion and PRQ 2 can also be observed. \textcite{Vakkuri_2020} perform an in-depth analysis of the responses to their survey, amongst other discussing how liability is a somewhat ignored ethics principle within the software development industry, while predictability is taken more seriously. Likewise, they observe that a large part of the companies consider complying with regulatory standards to be enough, with regards to both technical details of their system, such as responsibility, as well as for documentation of their system. These considerations and observations shows that the conclusions drawn to a large degree answers PRQ 2.
 
 % Conclusion
+In conclusion, \textcite{Vakkuri_2020} state the aim of their survey, but do not explicitly state their research questions, instead requiring the reader to interpret them from the rest of the text. When this is done, however, the connections with the rest of the text are mostly clear -- the survey performed in the paper directly answers one of the potential research questions, while the discussion and conclusions being drawn afterwards directly answer both the potential research questions. While not explicitly referenced, there is a clear focus on the potential research questions throughout the text, ensuring an alignment between the paper and the aim of the paper.
